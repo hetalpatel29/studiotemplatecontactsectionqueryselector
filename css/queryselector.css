@@ -1,0 +1,402 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.queryselectorcontainar {
+    width: 100%;
+}
+
+.banner {
+    width: 100%;
+}
+
+.olive {
+    color: rgb(197, 8, 103);
+}
+
+.blue {
+    color: rgb(229, 14, 236);
+}
+
+.menubar {
+    color: rgb(226, 7, 226);
+}
+
+.bagcolor {
+    background-color: rgb(240, 11, 190);
+    color: wheat;
+    border-radius: 10%;
+}
+
+.studiocontact {}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* header section start */
+
+.header {
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 25px;
+    vertical-align: middle;
+    line-height: 40px;
+}
+
+.header nav {
+    float: right;
+}
+
+.header nav ul {
+    vertical-align: middle;
+    line-height: 40px;
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+.header nav ul li a {
+    padding: 0px 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.header button {
+    display: none;
+    height: 30px;
+    width: 30px;
+    vertical-align: middle;
+    line-height: 40px;
+}
+
+.header button span {
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    margin: 3px 0px;
+}
+
+
+/* header section end */
+
+
+/* banner section start */
+
+#banner {
+    background-image: url(../image/camera.jpg);
+    text-align: center;
+    padding: 140px 0px;
+    color: white;
+    background-size: 100% 400px;
+    background-position: center;
+}
+
+#banner h2 {
+    font-size: 50px;
+}
+
+#banner p {
+    font-size: 20px;
+}
+
+
+/* banner section end */
+
+
+/* myskill section start */
+
+#myskill {
+    width: 100%;
+}
+
+.row {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.owt3 {
+    box-sizing: border-box;
+    width: 25%;
+    float: left;
+    padding: 0px 10px;
+}
+
+.skillbox {
+    width: 100%;
+    border: 3px solid rgb(226, 7, 226);
+    text-align: center;
+}
+
+#myskill h3 {
+    font-size: 30px;
+    text-align: center;
+    margin: 10px 10px;
+    color: rgb(3, 63, 63);
+}
+
+#myskill img {
+    margin-top: 20px;
+    height: 200px;
+    width: 90%;
+    border-radius: 2% 50%;
+    border: 2px solid goldenrod;
+}
+
+#myskill h4 {
+    font-size: 25px;
+    color: rgb(100, 5, 5);
+    margin-top: 20px;
+}
+
+#myskill p {
+    font-size: 15px;
+    margin: 20px 0px;
+    color: rgb(99, 97, 2);
+}
+
+
+/* 
+contactbar  */
+
+.contactbar {
+    width: 90%;
+    margin: auto;
+    border: indianred;
+    overflow: hidden;
+    scroll-snap-type: mandatory;
+}
+
+.contactdetails {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.satudiocontact {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.personaldetalis {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.personallogo {
+    color: rgb(233, 10, 122);
+    font-size: 50px;
+}
+
+.contactdetailheading {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+
+.contactdetailss {
+    color: gray;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 2px;
+}
+
+.customercontactdetails {
+    width: 60%;
+    margin-left: 200px;
+}
+
+.customerpersonaldetail {
+    width: 200px;
+    height: 20px;
+    border: 1px solid darkslategrey;
+    margin: 0px 5px;
+    text-align: left;
+    padding: 10px 10px;
+}
+
+.messagebox {
+    width: 80%;
+    height: 100px;
+    border: 1px solid darkslategrey;
+    margin: 18px 5px;
+    text-align: left;
+    padding: 10px 10px;
+}
+
+.msgbutton {
+    height: 50px;
+    width: 150px;
+    margin-bottom: 26px;
+    border: none;
+    background-color: rgb(243, 10, 99);
+    margin-top: 18px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contactbar h3 {
+    margin-top: 20px;
+    color: rgb(167, 6, 86);
+    font-size: 40px;
+}
+
+
+/* contactbarend */
+
+
+/* myskill section end */
+
+
+/* media query section satrt */
+
+@media screen and (max-width:769px) {
+    .owt3 {
+        width: 50%;
+    }
+    .header h1 {
+        font-size: 20px;
+    }
+    #banner h2 {
+        font-size: 50px;
+    }
+    #banner p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:426px) {
+    .owt3 {
+        width: 100%;
+        margin: 10px 0px;
+    }
+    .header h1 {
+        font-size: 15px;
+    }
+    .header button {
+        display: inline-block;
+        float: right;
+        margin-top: 5px;
+    }
+    .header:hover .header nav {
+        display: flex;
+        flex-direction: column;
+        right: 0px;
+    }
+    .header nav {
+        position: absolute;
+        right: -100%;
+    }
+    #banner h2 {
+        font-size: 27px;
+    }
+    #banner p {
+        font-size: 12px;
+    }
+    .contactbar {
+        width: 90%;
+        margin: auto;
+        border: indianred;
+        overflow: hidden;
+        scroll-snap-type: mandatory;
+    }
+    .contactdetails {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .satudiocontact {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .personaldetalis {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+    }
+    .personallogo {
+        color: rgb(233, 10, 122);
+        font-size: 30px;
+    }
+    .contactdetailheading {
+        font-size: 17px;
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+    .contactdetailss {
+        color: gray;
+        font-size: 15px;
+        margin-left: 20px;
+    }
+    .customercontactdetails {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .customerpersonaldetail {
+        width: 150px;
+        height: 20px;
+        border: 1px solid darkslategrey;
+        margin: 5px 5px;
+        text-align: left;
+        padding: 10px 10px;
+    }
+    .messagebox {
+        width: 80%;
+        height: 100px;
+        border: 1px solid darkslategrey;
+        margin: 18px 5px;
+        text-align: left;
+        padding: 10px 10px;
+    }
+    .msgbutton {
+        height: 50px;
+        width: 150px;
+        margin-bottom: 26px;
+        border: none;
+        background-color: rgb(243, 10, 99);
+        margin-top: 18px;
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+        border-radius: 40px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .contactbar h3 {
+        margin-top: 10px;
+        color: rgb(167, 6, 86);
+        font-size: 30px;
+    }
+}
+
+
+/* media query section end */
